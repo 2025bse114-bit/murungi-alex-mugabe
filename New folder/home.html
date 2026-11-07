@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="MUST student portal home">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<title>Home | MUST Student Portal</title>
+</head>
+<body class="home-page">
+
+	<header class="site-header">
+		<a class="brand" href="/home">
+			<img src="mustlogo.jpg" alt="MUST logo">
+			<span>
+				<strong>MUST</strong>
+				<small>Student Portal</small>
+			</span>
+		</a>
+
+		<nav class="site-nav">
+			<a href="/home" class="active">Home</a>
+			<a href="/application">Apply</a>
+			<a href="#announcements">Announcements</a>
+			<a href="/login" class="nav-signout"><i class="fa-solid fa-right-from-bracket"></i> Sign out</a>
+		</nav>
+	</header>
+
+	<main class="home-shell">
+
+		<section class="hero">
+			<div class="hero-text">
+				<span class="badge">2026 / 2027 Admissions</span>
+				<h1>Welcome back to your student portal</h1>
+				<p>
+					Track your admission application, upload the required documents and stay
+					updated with everything happening at Mbarara University of Science and Technology.
+				</p>
+				<div class="hero-actions">
+					<a href="/application" class="btn-primary">
+						<i class="fa-solid fa-user-plus"></i> Start an application
+					</a>
+					<a href="#announcements" class="btn-ghost">View announcements</a>
+				</div>
+			</div>
+
+			<div class="hero-panel">
+				<div class="status-ring"><span>75%</span></div>
+				<h3>Application progress</h3>
+				<div class="progress"><span style="width: 75%"></span></div>
+				<small>3 of 4 steps completed</small>
+			</div>
+		</section>
+
+		<section class="stats">
+			<article class="stat-card">
+				<i class="fa-solid fa-file-lines"></i>
+				<div><strong>1</strong><span>Active application</span></div>
+			</article>
+			<article class="stat-card">
+				<i class="fa-solid fa-clock"></i>
+				<div><strong>In progress</strong><span>Current status</span></div>
+			</article>
+			<article class="stat-card">
+				<i class="fa-solid fa-bell"></i>
+				<div><strong>2</strong><span>New notifications</span></div>
+			</article>
+		</section>
+
+		<div class="home-grid">
+
+			<section class="panel quick-actions">
+				<h2>Quick actions</h2>
+				<div class="action-grid">
+					<a href="/application" class="action">
+						<i class="fa-solid fa-user-plus"></i>
+						<span>Apply for admission</span>
+						<small>Create or continue your application</small>
+					</a>
+					<a href="#announcements" class="action">
+						<i class="fa-solid fa-bullhorn"></i>
+						<span>Read announcements</span>
+						<small>Latest news from the university</small>
+					</a>
+					<a href="#dates" class="action">
+						<i class="fa-solid fa-calendar-days"></i>
+						<span>Important dates</span>
+						<small>Deadlines you should not miss</small>
+					</a>
+					<a href="#help" class="action">
+						<i class="fa-solid fa-circle-question"></i>
+						<span>Get help</span>
+						<small>Contact the admissions office</small>
+					</a>
+				</div>
+			</section>
+
+			<section class="panel" id="announcements">
+				<h2>Latest announcements</h2>
+				<ul class="notice-list">
+					<li>
+						<span class="notice-dot"></span>
+						<div>
+							<strong>Admissions for 2026/2027 are now open</strong>
+							<p>Apply online before the deadline and submit all required documents.</p>
+							<time>05 Nov 2026</time>
+						</div>
+					</li>
+					<li>
+						<span class="notice-dot gold"></span>
+						<div>
+							<strong>Fee structure released</strong>
+							<p>The approved tuition and functional fees for the new academic year are available.</p>
+							<time>02 Nov 2026</time>
+						</div>
+					</li>
+					<li>
+						<span class="notice-dot green"></span>
+						<div>
+							<strong>Orientation for freshers</strong>
+							<p>All first-year students are invited to the orientation week starting 12 January 2027.</p>
+							<time>28 Oct 2026</time>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<section class="panel" id="dates">
+				<h2>Important dates</h2>
+				<ul class="date-list">
+					<li>
+						<span>15 Nov</span>
+						<div><strong>Application deadline</strong><small>Submit your form online</small></div>
+					</li>
+					<li>
+						<span>30 Nov</span>
+						<div><strong>Document verification</strong><small>Bring original copies</small></div>
+					</li>
+					<li>
+						<span>12 Jan</span>
+						<div><strong>Orientation week</strong><small>Main campus, Mbarara</small></div>
+					</li>
+				</ul>
+			</section>
+
+			<section class="panel help" id="help">
+				<h2>Need help?</h2>
+				<p>Our admissions team is available Monday to Friday, 8:00am – 5:00pm.</p>
+				<ul class="contact-list">
+					<li><i class="fa-solid fa-envelope"></i> admissions@must.ac.ug</li>
+					<li><i class="fa-solid fa-phone"></i> +256 485 433 780</li>
+					<li><i class="fa-solid fa-location-dot"></i> Mbarara, Uganda</li>
+				</ul>
+			</section>
+
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<p>&copy; 2026 Mbarara University of Science and Technology. All rights reserved.</p>
+	</footer>
+
+</body>
+</html>

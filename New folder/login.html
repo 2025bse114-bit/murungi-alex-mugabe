@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="project5">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<title>Login</title>
+
+
+</head>
+<body>
+
+	<main class="logo">
+		<img src="mustlogo.jpg" alt="MUST logo">
+	</main>
+
+	<p class="uni_name">MBARARA UNIVERSITY OF SCIENCE AND TECHNOLOGY</p>
+
+	<main class="card">
+		<h2>Welcome Back </h2>
+		<form method="POST" action="/login">
+			<label for="email">Email Address</label>
+			<div class="input-group">
+				<i class="fa-solid fa-envelope icon"></i>
+				<input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+			</div>
+
+			<label for="password">Password</label>
+			<div class="input-group">
+				<i class="fa-solid fa-lock icon"></i>
+				<input type="password" id="password" name="password" placeholder="Enter Password" required>
+				<i class="fa-solid fa-eye toggle" id="toggle_password"></i></div>
+
+			<button type="submit" class="btn-primary">
+				<i class="fa-solid fa-right-to-bracket"></i> Sign in</button>
+
+			<p class="auth-switch">Don't have an account? <a href="/application">Sign up here</a></p>
+		</form>
+	</main>
+
+	<script src="/js/app.js"></script>
+</body>
+
+</html>
